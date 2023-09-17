@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Speed Up Your Kubernetes Upgrades for Your Kafka Clusters [short]"
+date:   2023-06-21 17:30:00 -0500
+categories: jekyll update
+---
+Upgrading Kubernetes can be difficult enough without the additional challenge of the petabytes of data associated with your Kafka cluster. At Shopify, we reduced our live Kafka cluster migration time from six months to two weeks by reusing persistent disks. In this talk I’ll explain why we chose this approach, how we did it, and how you can too.
+
+When upgrading Kubernetes it can be preferable to create a new Kubernetes cluster and migrate your workloads instead of performing an in-place upgrade. However, with this approach migrating Kafka to a new Kubernetes cluster over the network can be time consuming.
+
+I will go over how to stretch a Kafka cluster across the old and new Kubernetes clusters without adding any extra brokers. Finally, I will discuss how the Kafka brokers in the new Kubernetes cluster get scaled up while the old one gets decommissioned.
+
+Check out the [CNCF agenda][agenda].
+
+[agenda]: https://community.cncf.io/events/details/cncf-montreal-presents-q2-cncf-montreal-cloud-native-users-and-contributor-stories/
