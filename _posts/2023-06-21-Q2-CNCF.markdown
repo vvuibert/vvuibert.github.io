@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Speed Up Your Kubernetes Upgrades for Your Kafka Clusters [short]"
+title:  "Q2 CNCF Montreal: Kubernetes Upgrades for Kafka Clusters"
 date:   2023-06-21 17:30:00 -0500
 categories: jekyll update
 ---

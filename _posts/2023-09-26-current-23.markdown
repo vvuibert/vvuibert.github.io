@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Resilient Kafka: How DNS Traffic Management and Client Wrappers Ensure Availability"
-date:   2023-09-16 17:30:00 -0500
+date:   2023-09-26 17:30:00 -0500
 categories: jekyll update
 ---
 Kafka clients sometimes have problems producing messages because of an incident or maintenance. 
@@ -10,6 +10,7 @@ In this talk, we'll run through our Kafka infrastructure at Shopify and how clie
 Next, we'll describe our solution for performing failovers using DNS. Afterwards, we'll look at some real world scenarios where this system saved us from major outages. 
 In conclusion, Kafka clusters are more resilient to infrastructure hiccups with a DNS traffic manager and opinionated client wrappers.
 
-Check out the [Current 2023 agenda][agenda].
+Check out the [Current 2023 agenda][agenda] and [slides][slides].
 
 [agenda]: https://events.bizzabo.com/468544/agenda/session/1165883?widget=true
+[slides]: https://www.slideshare.net/VanessaVuibert1/resilient-kafka-how-dns-traffic-management-and-client-wrappers-ensure-availability
