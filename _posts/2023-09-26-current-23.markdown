@@ -10,7 +10,7 @@ In this talk, we'll run through our Kafka infrastructure at Shopify and how clie
 Next, we'll describe our solution for performing failovers using DNS. Afterwards, we'll look at some real world scenarios where this system saved us from major outages. 
 In conclusion, Kafka clusters are more resilient to infrastructure hiccups with a DNS traffic manager and opinionated client wrappers.
 
-Check out the [Current 2023 agenda][agenda] and [slides][slides].
+Check out the [recording][recording] and [slides][slides].
 
-[agenda]: https://events.bizzabo.com/468544/agenda/session/1165883?widget=true
-[slides]: https://www.slideshare.net/VanessaVuibert1/resilient-kafka-how-dns-traffic-management-and-client-wrappers-ensure-availability
+[recording]: https://www.confluent.io/events/current/2023/resilient-kafka-how-dns-traffic-management-and-client-wrappers-ensure/
+[slides]: https://www.slideshare.net/VanessaVuibert/resilient-kafka-how-dns-traffic-management-and-client-wrappers-ensure-availability
